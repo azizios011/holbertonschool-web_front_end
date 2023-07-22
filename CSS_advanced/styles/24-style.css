@@ -247,7 +247,7 @@ ul.row {
   /* Target a inside card-services */
   .card-services a {
     display: block;
-    padding: calc(var(--font-size-medium) * 2);
+    padding: 2rem;
     background-color: var(--color-light-grey);
     text-decoration: none;
   }

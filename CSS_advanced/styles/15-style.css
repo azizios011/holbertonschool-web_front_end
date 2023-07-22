@@ -32,9 +32,10 @@
   }
 
   /* Universal box-sizing rule */
-* {
+  * {
     box-sizing: border-box;
   }
+  
 
   /* Default Reset */
   html {

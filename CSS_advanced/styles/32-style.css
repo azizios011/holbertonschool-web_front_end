@@ -294,12 +294,10 @@
   
   /* Hover state of the button class selector */
   .button:hover {
-    color: var(--button-hover-color);
-    text-decoration: var(--button-hover-text-decoration);
-    background-color: var(--button-hover-background);
-    transition-duration: var(--transition-duration);
-    transition-property: color, background-color;
-  }
+	color: var(--button-hover-color);
+	text-decoration: var(--button-hover-text-decoration);
+	background: var(--button-hover-background);
+}
   /* Add border-radius to images */
   
   /* Card-testimonial selector */
@@ -470,4 +468,8 @@
     height: 0.2rem;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
+  .button:hover {
+	transition-duration: var(--transition-duration);
+	transition-property: color, background-color
+}
   /* Add more custom styles as needed */

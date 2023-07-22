@@ -167,7 +167,7 @@
   
   .nav-link {
     display: block;
-    padding: var(--font-size-medium) var(--font-size-medium) var(--font-size-medium) var(--font-size-medium);
+    padding: 0.5rem 1rem;
   }
   
   .nav-link:hover {

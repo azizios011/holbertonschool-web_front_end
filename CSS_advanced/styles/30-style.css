@@ -266,7 +266,7 @@
     background-color: var(--color-light-grey);
     text-decoration: none;
   }
-  
+
   /* Hover state for a inside card-services */
   .card-services a:hover {
     color: var(--color-white);
@@ -417,7 +417,7 @@
   }
   
   /* Create the after pseudo elements of the link (inside card-title and card-work) */
-  .card-title a::after {
+  .card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;

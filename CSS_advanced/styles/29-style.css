@@ -355,8 +355,8 @@ ul.row {
 /* Styling and custom properties for the nav */
 
 /* Before pseudo elements of nav-link inside nav */
-nav .nav-link::before {
-  content: '';
+.nav .nav-link::before {
+  content: "";
   position: absolute;
   top: 0;
   left: 0;

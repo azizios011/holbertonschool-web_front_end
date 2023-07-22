@@ -216,8 +216,8 @@ ul.row {
     clear: both;
   }
   /* Simplified col- selector */
-[class^="col-"] {
+[class*="col-"] {
     float: left;
-    padding: calc(var(--font-size-medium) / 2);
+    padding: 0.5rem;
   }
   /* Add more custom styles as needed */

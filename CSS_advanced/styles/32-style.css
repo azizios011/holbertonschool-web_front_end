@@ -451,12 +451,11 @@
   /* Incorporating transitions */
 /* Transitions on card works */
 .card-work:hover .card-image {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
     transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
   
   .card-work:hover .card-outer {
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
     transform: scale(0.95);
   }
   

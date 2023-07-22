@@ -460,20 +460,22 @@
   
   /* Transitions on navigation items */
   .nav .nav-link::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     background-color: var(--color-white);
     width: 0;
-    height: 20%;
+    height: 0.2rem;
     transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
   
   /* Hover state of the button class */
   .button:hover {
-    transition: var(--transition-duration);
     color: var(--button-hover-color);
-    background-color: var(--button-hover-background);
+    text-decoration: var(--button-hover-text-decoration);
+    background: var(--button-hover-background);
+    transition-duration: var(--transition-duration);
+    transition-property: color, background-color;
   }
   /* Add more custom styles as needed */

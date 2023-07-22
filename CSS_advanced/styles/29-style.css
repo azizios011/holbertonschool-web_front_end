@@ -354,11 +354,6 @@ ul.row {
 }
 /* Styling and custom properties for the nav */
 
-/* Nav-item-link-hover property */
-a:hover {
-  color: var(--color-white);
-}
-
 /* Before pseudo elements of nav-link inside nav */
 nav .nav-link::before {
   content: '';

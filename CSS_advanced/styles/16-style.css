@@ -82,7 +82,8 @@
   /* Styling for .container class */
 .container {
     max-width: 960px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-left: auto;
     /* This will evenly distribute the margins on both the left and right side */
   }
   

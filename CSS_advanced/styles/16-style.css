@@ -80,12 +80,12 @@
   }
 
   /* Styling for .container class */
-.container {
-    max-width: 960px;
+  .container{
+    width: 960px;
     margin-left: auto;
-    margin-left: auto;
-    /* This will evenly distribute the margins on both the left and right side */
-  }
+    margin-right: auto;
+} /* This will evenly distribute the margins on both the left and right side */
+
   
   .section-header {
     text-align: var(--section-header-align);

@@ -307,7 +307,7 @@ ul.row {
   /* <cite> HTML tag inside card-quote inside card-testimonial */
   .card-testimonial .card-quote cite {
     display: block;
-    padding-top: var(--font-size-medium);
+    padding-top: 1rem;
     color: var(--color-primary);
   }
   /* Add more custom styles as needed */

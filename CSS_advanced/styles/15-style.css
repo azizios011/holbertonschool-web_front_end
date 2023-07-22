@@ -30,10 +30,12 @@
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
   }
+
   /* Universal box-sizing rule */
 * {
     box-sizing: border-box;
   }
+
   /* Default Reset */
   html {
     scroll-behavior: smooth;

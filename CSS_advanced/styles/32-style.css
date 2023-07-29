@@ -395,11 +395,12 @@
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
   }
   
   /* Target card-inner when card-work is hover */
   .card-work:hover .card-inner {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0 ,0.7)
   }
   
   /* Target card-title inside card-work */
@@ -449,9 +450,9 @@
   /* Incorporating transitions */
 /* Transitions on card works */
 .card-work:hover .card-image {
-    transform: scale(1.2);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
-  }
+	transform: scale(1.2);
+	transition: var(--transition-duration) var(--transition-cubic-bezier);
+}
   
 .card-work:hover .card-outer {
     transform: scale(0.95);
